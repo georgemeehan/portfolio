@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400|Titillium+Web:400,700");
 @import "config";
+@import "menu";
 * {
   box-sizing: border-box;
 }
@@ -21,7 +22,7 @@ h3,
 h4 {
   margin: 0;
   font-family: "Titillium Web", sans-serif;
-  font-weight: -400;
+  font-weight: 400;
 
   &.lg-heading {
     font-size: 6rem;
