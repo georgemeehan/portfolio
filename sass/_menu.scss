@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin-bottom: 5px;
-    background: $white;
+    background: set-text-color($dkgray);
     @include ease-out;
   }
 
@@ -115,7 +115,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: $white;
+    color: set-text-color($dkgray);
     text-decoration: none;
     @include ease-out;
 
